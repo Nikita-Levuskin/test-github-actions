@@ -32,4 +32,5 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          df -h
+          pwd
+          wget -O cat.jpg https://img.razrisyika.ru/kart/88/1200/350516-kotik-pushok-20.jpg
