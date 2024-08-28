@@ -34,3 +34,9 @@ jobs:
         run: |
           pwd
           wget -O cat.jpg https://img.razrisyika.ru/kart/88/1200/350516-kotik-pushok-20.jpg
+
+      - name: little cat
+        uses: actions/upload-artifact@v4
+        with:
+          name: little cat)
+          path: /home/runner/work/test-github-actions/test-github-actions/cat.jpg
